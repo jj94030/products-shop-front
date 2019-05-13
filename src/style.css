@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.lastP {
+    font-style: oblique;
+}
+
+p:first-letter {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+@media (min-width: 900px) {
+    article {
+        padding: 1rem 3rem;
+    }
+}
