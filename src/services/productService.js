@@ -8,7 +8,7 @@ function getProductList() {
                 "name": "Krzesło",
                 "price": {
                     "amount": "45.99",
-                    "currency": "PLN"
+                    "currency": "USD"
                 },
                 "description": {
                     "text": "Bardzo wygodne krzesło"
@@ -22,7 +22,7 @@ function getProductList() {
                 "name": "Notatnik",
                 "price": {
                     "amount": "9.00",
-                    "currency": "PLN"
+                    "currency": "EUR"
                 },
                 "description": {
                     "text": "Notatnik w którym można pisać ołówkiem. Długopisem też."
@@ -36,7 +36,7 @@ function getProductList() {
                 "name": "Kamień",
                 "price": {
                     "amount": "1000.00",
-                    "currency": "PLN"
+                    "currency": "GBP"
                 },
                 "description": {
                     "text": "Skała spoista, zwięzła bez względu na jej rodzaj genetyczny, wielkość frakcji i skład mineralogiczny."
