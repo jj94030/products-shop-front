@@ -1,4 +1,19 @@
 function getProductList() {
+    const goodUrl = "https://products-shop-jj.herokuapp.com/products";
+
+    return fetch(goodUrl)
+        .then(response => {
+            return response.json();
+        })
+        .then(response => {
+            console.log(response)
+        })
+        .catch(reason => {
+            console.error(response);
+        })
+}
+
+function getProductListDeprecated() {
 
     return {
 
@@ -76,4 +91,3 @@ function getProductList() {
         ]
     };
 }
-

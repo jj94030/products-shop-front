@@ -1,11 +1,11 @@
 function renderProduct(product) {
     return `
     <div class="product">
-        <img class="product_image" src="${product.image.url}">
+        <img class="product_image" src="${product.imageUrl}">
         <div class="product_info">
             <h2 class="product_title">${product.name}</h2>
             <div>${formatPrice(product.price)}</div>
-            <div class="product_description">${product.description.text}</div>
+            <div class="product_description">${product.description}</div>
         </div>
     </div>
     `;

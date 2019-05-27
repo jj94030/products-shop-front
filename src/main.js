@@ -2,12 +2,9 @@ const listingElement = document.querySelector("#listing");
 console.log(listingElement);
 
 
-const response = getProductList();
-
-const productsHtml = response.products.map((product) => {
-    return renderProduct(product);
-}).forEach((productHtml) => {
-    listingElement.innerHTML += productHtml;
+getProductList()
+.then(response => {
+    response.products
+        .map(product => renderProduct(product))
+        .forEach(html => listingElement.innerHTML += html);
 });
-
-console.log(productsHtml);
