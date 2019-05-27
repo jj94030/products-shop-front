@@ -1,7 +1,11 @@
 function getProductList() {
     const goodUrl = "https://products-shop-jj.herokuapp.com/products";
 
-    return fetch(goodUrl)
+    const options = {
+        mode: 'cors'
+    }
+
+    return fetch(goodUrl, options)
         .then(response => {
             return response.json();
         })
